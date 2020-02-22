@@ -1,0 +1,47 @@
+{
+  "name": "canduma",
+  "version": "0.0.0",
+  "description": "Sheer awesomeness!",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm start postinstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielratener/rust-web-boilerplate.git"
+  },
+  "keywords": [
+    "awesome",
+    "fantastic",
+    "superb",
+    "splendid",
+    "sublime"
+  ],
+  "author": "God",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielratener/canduma/issues"
+  },
+  "homepage": "https://github.com/gabrielratener/canduma#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http-server": "^0.12.1",
+    "jolt.sh": "^1.0.0",
+    "pg": "^7.12.1",
+    "rollup": "^1.30.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-vue": "^5.1.6",
+    "sequelize": "^5.21.1",
+    "validator": "^11.1.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.5",
+    "vue-template-compiler": "^2.6.11",
+    "vue-the-mask": "^0.11.1",
+    "vuetify": "^2.2.6",
+    "vuex": "^3.1.2"
+  }
+}
